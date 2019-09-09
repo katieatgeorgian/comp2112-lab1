@@ -8,6 +8,7 @@ function tweeting(e) {
   tweet.tweet = tweetText;
   tweets.unshift(tweet);
   display(tweets);
+  document.getElementById("exampleFormControlTextarea1").value = "";
 }
 
 function display(tweets) {
